@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_channel"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/list_view_channels_dialog"
+        android:layout_marginTop="10dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:divider="@color/colorPrimary"
+        android:choiceMode="singleChoice"
+        android:listSelector="@color/selectedColor"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Titulo da noticia"
+                android:id="@+id/text_view_title"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_view_pub_date"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Fri, 14 Apr 2017 15:55:00 GMT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/newspaper_icon"
+                android:id="@+id/image_view_feed_item"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/text_view_resume"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ac neque at consectetur. Mauris et congue diam. Sed molestie, sapien vel efficitur vulputate, purus elit finibus dui, ac ultricies purus odio id magna. In ac nisi felis. Donec aliquam, elit luctus dapibus vulputate, nisl dui facilisis neque, vitae vehicula lacus lorem a sapien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

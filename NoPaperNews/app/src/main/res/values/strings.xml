@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">No Paper News</string>
+    <string name="title_activity_web">News</string>
+    <string name="title_nav_header_home">No Paper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_add_rss">Add feed RSS</string>
+    <string name="action_remove_rss">Remove feed RSS</string>
+    <string name="read_more">Read more</string>
+    <string name="add_rss_url">Enter the URL: </string>
+    <string name="select_channel">Select the channel do you want to remove</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="refresh">Refresh</string>
+    <string name="share">Share</string>
+    <string name="add_to_favorite">Add to favorites</string>
+    <string name="open_browser">Open in browser</string>
+    <string name="something_wrong">There is something wrong. \nCheck your connection and try again.</string>
+    <string name="no_favorites">You dont have favorites.</string>
+    <string name="no_feed">You dont have any feed.</string>
+    <string name="enter_valid_url">Enter a valid Rss feed url</string>
+    <string name="saved_favorites">Saved in favorites</string>
+    <string name="removed_favorites">Removed from favorites</string>
+    <string name="favorites_title">My Favorites</string>
+</resources>

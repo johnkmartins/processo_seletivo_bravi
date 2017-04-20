@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="selectedColor">#CC3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDarker">#212c6f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="dark">#1d1d26</color>
+    <color name="dark_transparent">#801d1d26</color>
+
+    <array name="load_dialog">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+    </array>
+</resources>
